@@ -1,0 +1,139 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+a,li,div{
+    font-family: '微软雅黑', '黑体', '宋体';
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background: #120B20;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+.logo{
+    flex: 0.18;
+    /* background: red; */
+}
+
+.logo a{
+    display: block;
+    background: #FBBD08; 
+    height: 50%;
+    width: 35%;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+nav ul{
+    /* background: red; */
+    display: flex;
+    flex: 0.7;
+    list-style-type: none;
+}
+
+nav ul li{
+    flex: 1;
+    color: white;
+    font-size: 25px;
+    line-height: 80px;
+    height: 80%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li:hover{
+    background: white;
+}
+
+nav ul li:hover a{
+    color:black;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav div{
+    flex: 0.15;
+    /* background: red; */
+}
+
+nav div a{
+    display: block;
+    width: 20%;
+    background: white;
+}
+
+.login{
+    display: inline-block;
+    width: 18%;
+    height: 30%;
+    background: white;
+    border: 2px solid black;
+    position: relative;
+    left: 30%;
+    top: 30%;
+    padding-top: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.register{
+    display: inline-block;
+    width: 18%;
+    height: 30%;
+    background: white;
+    border: 2px solid black;
+    position: relative;
+    left: 40%;
+    top: 30%;
+    padding-top: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+@media (max-width: 800px){
+    .logo{
+        display: none;
+    }
+
+    nav li a{
+        font-size: 1.5rem;
+    }
+
+    nav ul{
+        flex: 0.8;
+    }
+
+    nav div{
+        flex: 0.2;
+    }
+
+    nav div a{
+        overflow: hidden;
+    }
+}

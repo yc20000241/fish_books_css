@@ -1,0 +1,112 @@
+body{
+    overflow-x: hidden;
+}
+
+main{
+    background: #000;
+    width: 100vw;
+    margin-bottom: 10vh;
+    padding: 1px;
+    /* height: 100vh; */
+}
+
+.comments{
+    width: 70%;
+    margin: 100px auto;
+    border-radius: 10px;
+    /* height: 80%; */
+    background: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments span{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    color: #666666;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.comment{
+    flex: 0 0 20vh;
+    /* background: #000; */
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.commenter{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.commenter img{
+    display: inline-block;
+    width: 5%;
+    border-radius: 50%;
+    min-width: 50px;
+}
+
+.commenter_name{
+    display: inline-block;
+    font-size: 1.4rem;
+    width: 20%;
+    overflow: hidden;
+    color: #666666;
+    padding: 0.9rem;
+}
+
+.content{
+    width: 90%;
+    /* height: 50%; */
+    margin: 20px auto;
+    font-size: 1rem;
+    /* background: #000; */
+}
+
+.date{
+    width: 90%;
+    margin: 20px auto;
+    font-size: 0.7rem;
+    color: #666666;
+}
+
+.publish{
+    width: 70%;
+    margin: 100px auto;
+    border-radius: 10px;
+    background: white;
+    padding: 20px 0;
+}
+
+.publish textarea{
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+    resize: none;
+    height: 10rem;
+    min-height: 150px;
+    padding: 5px;
+}
+
+.button{
+    width: 12%;
+    height: 6vh;
+    margin: 0 auto;
+    background: #FBBD08;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 6vh;
+    text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}

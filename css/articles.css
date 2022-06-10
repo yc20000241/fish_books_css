@@ -1,0 +1,116 @@
+body{
+    overflow-x: hidden;
+}
+
+.book_img{
+    width: 100vw;
+}
+
+.book_img img{
+    display: block;
+    width: 100%;
+}
+
+.container{
+    width: 100vw;
+    background: white;
+    padding-top: 20px;
+}
+
+.container p{
+    width: 300px;
+    /* background: #000; */
+    font-size: 1.2rem;
+    margin-left: 50px;
+    border-left: 5px solid red;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.container span{
+    margin-left: 7%;
+    font-size: 1.2rem; 
+    font-weight: bold;
+}
+
+.category{
+    margin-bottom: 5vh;
+    /* margin-left: -5%; */
+}
+
+.category ul{
+    display: inline-block;
+    font-weight: bold;
+    width: 60%;
+}
+
+.category li{
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.category li:hover{
+    cursor: pointer;
+}
+
+.active{
+    color: red;
+}
+
+.book_list{
+    width: 90%;
+    margin: 0 auto;
+    /* background: red; */
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding-bottom: 5%;
+}
+
+.book{
+    flex: 0 0 16%;
+}
+
+.book_cover{
+    width: 70%;
+    margin: 10px auto;
+    height: 60%;
+}
+
+.title{
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.book_cover img{
+    display: block;
+    width: 80%;
+    max-height: 100%;
+    /* position: relative;
+    top: 50%; */
+}
+
+.read_count{
+    width: 90%;
+    margin: 5px auto;
+    font-size: 1rem;
+    color: #c1b6b6;
+}
+
+.book a{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    text-decoration: none;
+    color: #54c4ec;
+}
+
+@media (max-width: 800px){
+    .book{
+        flex: 0 0 33%;
+    }
+}
