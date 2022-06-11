@@ -37,6 +37,10 @@ main div img{
     animation-iteration-count: infinite;
 }
 
+.img1:hover{
+    cursor: pointer;
+}
+
 @keyframes colorChange{
     0% {
         color:aqua;
@@ -56,5 +60,35 @@ main div img{
     75%{
         color: aquamarine;
         opacity: 1;
+    }
+}
+
+@media (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+
+    main div img{
+        height: 20vh;
+    }
+
+    .email div{
+        font-size: 0.5rem;
+        left: 20%;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+
+    main div img{
+        height: 30vh;
+    }
+
+    .email div{
+        font-size: 0.5rem;
+        left: 20%;
     }
 }
